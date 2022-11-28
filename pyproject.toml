@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "搜狗公众号爬虫"
+version = "0.1.0"
+description = ""
+authors = ["Dream <1147262934@qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyexecjs = "^1.5.1"
+requests = "^2.28.1"
+lxml = "^4.9.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
